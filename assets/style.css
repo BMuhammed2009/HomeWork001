@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.Testimonials{
+background-color: rgba(13, 18, 31, 1);
+height: 90vh;
+width: 100vw;
+ display: flex;
+align-items: center;
+ flex-direction: column;
+gap: 50px;
+padding-top: 10vh;
+}
+.Tittle__Descriptions{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+}
+.Tittle__Descriptions  h3{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgba(124, 92, 252, 1);
+    font-weight: 600;
+}
+.Tittle__Descriptions  h1{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+.Tittle__Descriptions  p{ 
+    text-align: center;
+    color: rgba(144, 163, 191, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+.cards{
+   justify-content: center;
+   flex-wrap: wrap;
+    display: flex; 
+    gap: 24px;
+}
+.Frame{ 
+    background-color: rgba(26, 32, 44, 1);
+    width: 352px; 
+    height: 331px;
+    border-radius: 12px;
+    padding-top: 32px;
+    padding-left: 32px;
+} 
+.Frame h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+}
+.Frame p{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+.vector{
+    background-color: rgba(144, 163, 191, 1);
+    width: 328px;
+    height: 1px;
+    border-color: rgba(144, 163, 191, 1);
+    border: 1px;
+    opacity: 20%;
+    margin-top: 34px;
+}
+.F33686 .vector{
+    margin-top: 56px;
+}
+img{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    margin-top: 32px;
+}
+.Group_Child{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.Group_Child h1{
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 700;
+}
+.Group_Child p{
+    display: flex;
+    color: rgba(195, 212, 233, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+.Group{
+    display: flex;
+    align-items: flex-end ;
+}
+span{
+    size: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.arrow_circle{
+    display: flex;
+    gap: 24px;
+}
+.arrow_circle_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(26, 32, 44, 1);
+    color: white;
+}
+.arrow_circle_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(124, 92, 252, 1);
+    color: white;
+}
